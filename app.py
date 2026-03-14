@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_openshift():
     return jsonify({
-        "message": "Hello OpenShift S2I!",
+        "message": "Hello OpenShift S2I!, This is V2",
         "status": "Success",
         "version": "v1.0"
     })
